@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    {% if title %}
+      <title>{{ title }}</title>
+    {% endif %}
+  </head>
+  <body>
+    Try Some DryFruits<br>
+    <img src="{{ url_for('static', filename='dryfruits.jpg') }}" alt="me insulting my friend" height=300><br>
+    Github <a href="https://github.com/viveksray17">https://github.com/viveksray17</a>
+  </body>
+</html>
